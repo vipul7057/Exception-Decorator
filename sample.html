@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+   <head>
+    <link rel="icon" type="image/x-icon" href="picker_16.png">
+      <!-- Required meta tags -->
+      <script src="input.js"></script>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+          <script src="jquery.js"></script>
+      <title>Sample Exception Decorator</title>
+   </head>
+   <style>
+  
+    </style>
+   <body style="background-color: #073a5d;height: 100vh;">
+   
+        <div class="jumbotron jumbotron-fluid" style="background-color: #073a5d;">
+            <div class="container"  style="color: white;">
+              <h1 class="display-4">Sample Stack Trace</h1><br>
+              <p class="lead">
+                java.lang.NullPointerException<br>
+                at com.ccavenue.mars.dao.TransactionDAOImpl.getTransactionDetailsList(TransactionDAOImpl.java:553)<br>
+                at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>
+                at java.lang.reflect.Method.intercept(Method.java:498)<br>
+                at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)<br>
+                at com.ccavenue.mars.service.TransactionServiceImpl.fetchTransactionDetails(TransactionServiceImpl.java:803)<br>
+                at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)<br>
+                 </p>
+            </div>
+          </div>
+      </div>
+    </body>
+
+    </html>
+
+    
+
+    
